@@ -1,31 +1,78 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <NavBar />
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <router-view />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+<script setup lang="ts">
+import NavBar from "./components/NavBar.vue";
+</script>
+
+<style lang="less">
+body {
+  font-family: RobotoLight;
+  background-color: #222;
+  // margin: 0;
+  // padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  h1 {
+    color: white;
+  }
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  &:hover {
+    background: #444;
+  }
+  &:active {
+    background: #444;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+  &:hover {
+    background: #333;
+  }
+  &:active {
+    background: #333;
+  }
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+@font-face {
+  font-family: RobotoThin;
+  src: url(assets/fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(assets/fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(assets/fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url(assets/fonts/roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(assets/fonts/roboto/Roboto-Bold.ttf);
 }
 </style>

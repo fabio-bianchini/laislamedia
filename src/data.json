@@ -1,0 +1,59 @@
+{
+  "sectionImages": [
+    { "src": "naturaleza.jpg", "alt": "Imagen de naturaleza" },
+    { "src": "rodaje.jpg", "alt": "Imagen de rodaje" }
+  ],
+  "portfolio": [
+    {
+      "title": "El Hombre de La Isla",
+      "type": "fiction",
+      "image": "elhombredelaisla.png",
+      "festival": "",
+      "link": "https://www.youtube.com/watch?v=Rzjsw0bJvhs&ab_channel=LaIslaMedia",
+      "date": "3 agosto 2022",
+      "credits": {
+        "director": "Airam Rodríguez",
+        "production": "Silvania C. Suárez",
+        "screenwriter": "Airam Rodríguez",
+        "photography": "Miriam Taima",
+        "production assistant": "Atteneri Santana",
+        "compositor": ["Rau Newman", "Aarón Rodríguez"],
+        "sound": "Silvania C. Suárez",
+        "sound assistant": "Antonio Trancoso",
+        "postproduction sound": "Carlos Martín",
+        "casting": {
+          "Edu": "Eduardo Zerolo",
+          "Juancho": "Abel Moral",
+          "Ithaisa": "Sonia Alemán",
+          "Camila": "Eleonora Viloria",
+          "Marco": "Víctor Kapde"
+        }
+      }
+    },
+    {
+      "title": "Bom Bom Chan Chan",
+      "type": "clip",
+      "image": "bombomchanchan.png",
+      "link": "https://www.youtube.com/watch?v=XG_W5I7ToCs&list=PLTynrTBqu5NMpXEdmnF7e2c_o2XgoLhrE&index=1&ab_channel=WadyLee",
+      "date": "17 agosto 2021",
+      "performer": "Wady Lee",
+      "album": "Exodus",
+      "written": "Wady Lee",
+      "music production": "Abian Freeman",
+      "credits": {
+        "director": "Airam Rodríguez",
+        "production": "Silvania C. Suárez",
+        "screenwriter": "Airam Rodríguez",
+        "photography": "Miriam Taima",
+        "production assistant": "Atteneri Santana",
+        "casting": {
+          "Edu": "Eduardo Zerolo",
+          "Juancho": "Abel Moral",
+          "Ithaisa": "Sonia Alemán",
+          "Camila": "Eleonora Viloria",
+          "Marco": "Víctor Kapde"
+        }
+      }
+    }
+  ]
+}
